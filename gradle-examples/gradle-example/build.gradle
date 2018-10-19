@@ -24,7 +24,6 @@ buildscript {
 }
 
 allprojects {
-  apply plugin: 'maven'
   apply plugin: 'com.jfrog.artifactory'
   apply plugin: 'idea'
   configure(subprojects.findAll { new File(it.projectDir, 'src').directory }) {
