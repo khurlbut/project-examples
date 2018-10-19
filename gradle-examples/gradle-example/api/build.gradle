@@ -2,6 +2,10 @@ configurations {
     spi
 }
 
+repositories {
+  mavenCentral()
+}
+
 dependencies {
     compile project(':shared')
     compile module("commons-lang:commons-lang:2.4") {
