@@ -82,7 +82,7 @@ configurations {
 }
 
 artifactory {
-  contextUrl = 'http://localhost:8081/artifactory'
+  contextUrl = 'http://artifactory.gapinc.dev/artifactory/maven-repos'
   publish {
     repository {
       repoKey = 'libs-snapshot-local' // The Artifactory repository key to publish to
